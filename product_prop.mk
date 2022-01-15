@@ -58,8 +58,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Render Engine
 PRODUCT_PROPERTY_OVERRIDES += \
-	debug.hwui.renderer=skiagl \
-	debug.renderengine.backend=skiaglthreaded \
+	debug.hwui.renderer=skiavk \
+	graphics.gpu.profiler.support=true \
 	renderthread.skia.reduceopstasksplitting=true
 
 # RIL
